@@ -1,0 +1,21 @@
+.container{
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #0a0a0a;
+    padding: 24px;
+    overflow-y: auto; /* 👈 permite scroll */
+
+    .containerContent{
+        width: 80dvw;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        height: 100%;
+        overflow: visible; /* Importante para o form absolute funcionar */
+    }
+}
