@@ -51,6 +51,7 @@ function Tasks() {
     })
   }
 
+  
   async function handleDownload(taskId: string) {
     try {
       const response = await api.get(
